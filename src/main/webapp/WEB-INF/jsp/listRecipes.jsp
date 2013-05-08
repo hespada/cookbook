@@ -4,13 +4,21 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Recipes</title>
+<title>Lista de Receitas</title>
+<link rel="stylesheet" href="<c:url value="/resources/css/bootstrap.min.css"/>"/>
 </head>
 <body>
-<ul>
-<c:forEach var="item" items='${items}'>
-	<li><c:out value="${item}"></c:out></li>
-</c:forEach>
-</ul>
+	<div class="container text-left">
+		<div class="hero-unit">
+			<h2>Lista de Receitas</h2></br>
+			<ul>
+				<c:forEach var="recipe" items='${recipes}'>
+				<li><a href="/recipes/${recipe.getId()}">${recipe.titulo}</a></li>
+				</c:forEach>
+			</ul>
+			</br></br>
+			<a class="btn btn-primary btn-small" href="/">Início</a>
+		</div>
+	</div>
 </body>
 </html>
