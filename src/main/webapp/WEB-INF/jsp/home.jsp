@@ -17,7 +17,7 @@
 			<a class="btn btn-primary btn-large" href="/recipes/create">Criar Receita</a>
 			</p>
 		</div>
-		<p class="text-right">Higino Espada</br>${currentTime}</p>
+		<p class="text-right">Higino Espada</br>Teresa Gonçalves</br>${currentTime}</p>
 	</div>
 	<script src="<c:url value="/resources/js/bootstrap.js"/>"></script>
 </body>

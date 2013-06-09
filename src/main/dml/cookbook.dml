@@ -1,0 +1,18 @@
+package pt.ulht.es.cookbook.domain;
+
+class CookbookManager;
+
+class Recipe {
+	String titulo;
+	String autor;
+	String problema;
+	String solucao;
+	String data;
+	String tags;
+	String receitaPai;
+	}
+
+relation CookbookManagerHasRecipes {
+	CookbookManager playsRole cookbookManager { multiplicity 1..1; }
+	Recipe playsRole recipe { multiplicity 0..*;}
+}

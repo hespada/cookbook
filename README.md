@@ -1,11 +1,18 @@
-# Grupo
+# Grupo 9
 - 21006198 Higino Espada
+- 21003745 Teresa Gonçalves
 
 ## Changelog
+#### Versão 2.0:
+- Checkpoint 2 feito.
+- Persistência (Fénix Framework)
+- Apagar Receita
+- Atributo tags adicionado à Receita
+
 #### Versão 1.2:
-- checkpoint 1 feito.
-- listar receita
-- detalhe da receita com autor e data
+- Checkpoint 1 feito.
+- Listar receita
+- Detalhe da receita com autor e data
 
 #### Versão 1.1:
 - Twitter bootstrap + formulário para criar receita foram inseridos
