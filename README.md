@@ -3,6 +3,14 @@
 - 21003745 Teresa Gonçalves
 
 ## Changelog
+#### Versão 3.0:
+- Checkpoint 3 completo
+- Pesquisar receitas por titulo, problema, solucao e tags
+- Tags split por vírgula
+- Editar receitas
+- Visualização das últimas receitas alteradas
+- Histório das receitas alteradas na receita detalhada
+
 #### Versão 2.0:
 - Checkpoint 2 feito.
 - Persistência (Fénix Framework)

@@ -8,11 +8,12 @@
 <link rel="stylesheet" href="<c:url value="/resources/css/bootstrap.min.css"/>"/>
 <script>
 function goBack()
-{
-	window.history.back()
-}
+  {
+  window.history.back()
+  }
 </script>
 </head>
+
 <body>
 	<div class="container text-left">
 		<div class="hero-unit">
@@ -34,8 +35,15 @@ function goBack()
  			<small>Id: ${recipe.getExternalId()}</small>
 			</br>
 			<a class="btn btn-danger btn-mini" href="/recipes/${recipe.externalId}/delete">Apagar</a>
+			<a class="btn btn-danger btn-mini" href="/recipes/${recipe.externalId}/update">Editar</a>
 			</br></br>
 			</blockquote>
+			<p>Modificações da Receita:</p>
+			<c:forEach var="recipe" items='${recipes}'>		
+			<td><li><a href="/recipes/${recipe.getExternalId()}">${recipe.titulo}</a> - <em><small>${recipe.data}</small></em></td></li>
+			</c:forEach>
+			<em>${message}</em>			
+			</br></br>
 			<a class="btn" href="/"><i class="icon-home"></i> Início</a>
 			<a class="btn" type="button" onclick="goBack()"><i class="icon-arrow-left"></i> Voltar</a></br>
 			<a class="btn btn-small" href="/recipes">Lista de Receitas</a>

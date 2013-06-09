@@ -8,9 +8,9 @@
 <link rel="stylesheet" href="<c:url value="/resources/css/bootstrap.min.css"/>"/>
 <script>
 function goBack()
-{
-	window.history.back()
-}
+  {
+  window.history.back()
+  }
 </script>
 </head>
 

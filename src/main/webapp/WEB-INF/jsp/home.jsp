@@ -7,6 +7,7 @@
 <title>Cookbook</title>
 <link rel="stylesheet" href="<c:url value="/resources/css/bootstrap.min.css"/>"/>
 </head>
+
 <body>
 	<div class="container text-center">
 		<div class="hero-unit">
@@ -17,7 +18,7 @@
 			<a class="btn btn-primary btn-large" href="/recipes/create">Criar Receita</a>
 			</p>
 		</div>
-		<p class="text-right">Higino Espada</br>Teresa Gonçalves</br>${currentTime}</p>
+		<p class="text-right">Higino Espada</br>Teresa Gonçalves</br>${currentTime}</p>>
 	</div>
 	<script src="<c:url value="/resources/js/bootstrap.js"/>"></script>
 </body>
